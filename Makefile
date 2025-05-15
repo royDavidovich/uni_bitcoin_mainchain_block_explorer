@@ -1,3 +1,4 @@
+# Compiler settings (overrideable from CLI)
 CXX            ?= g++
 CXXFLAGS       ?= -std=c++17 -fPIC -I$(SRCDIR)
 LDFLAGS_SHARED ?= -shared
